@@ -1,0 +1,13 @@
+.sort-menu {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: auto;
+}
+
+.sort-menu button {
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  padding: 5px;
+}
