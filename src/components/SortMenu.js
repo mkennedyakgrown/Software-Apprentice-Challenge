@@ -15,7 +15,7 @@ function SortMenu({ sortBy, setSortBy }) {
   // Render the SortMenu component, including the sort button
   return (
     <div className="sort-menu">
-      <button onClick={handleClick}>
+      <button className="sort-button" onClick={handleClick}>
         {/* Display the sort button with the appropriate text and rotation, based on the sortBy state */}
         {"Sort By Spend" +
           (sortBy !== "" ? (sortBy == "spend-asc" ? " ▲" : " ▼") : "")}
